@@ -1,0 +1,15 @@
+{
+    "name": "has.ios",
+    "version": "0.1.0",
+    "description": "ios detection for the has.js library, https://github.com/phiggins42/has.js.",
+    "github": "https://github.com/incuna/has.ios",
+    "jam": {
+        "main": "has.ios.js",
+        "include": [
+            "has.ios.js"
+        ],
+        "shim": {
+            "has.ios": ["has"]
+        }
+    }
+}
