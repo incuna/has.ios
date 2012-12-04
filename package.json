@@ -8,8 +8,8 @@
         "include": [
             "has.ios.js"
         ],
-        "shim": {
-            "has.ios": ["has"]
+        "dependencies": {
+            "has": ""
         }
     }
 }
