@@ -19,6 +19,12 @@
             addtest('ios5', function () {
                 return navigator.userAgent.match(/(iPad|iPhone); CPU OS 5_\d/i);
             });
+            has.add('ios6', function () {
+                return navigator.userAgent.match(/(iPad|iPhone); CPU OS 6_\d/i);
+            });
+            has.add('lt-ios5', function () {
+                return navigator.userAgent.match(/(iPad|iPhone); CPU OS [3-4]_\d/i);
+            });
         })(has, has.add, has.cssprop);
     });
 })(typeof require == "undefined" ? undefined : require);
