@@ -3,7 +3,7 @@
         require = function(dependencies, definition) {
             // not using require so call definition with global `has`
             definition(has);
-        }
+        };
     }
     require(['has'], function (has) {
         (function(has, addtest, cssprop){
